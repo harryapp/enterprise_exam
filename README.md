@@ -3,11 +3,11 @@
 ## Description
 This is a REST API for managing orders for delivery service, for a grocery store. 
 
-###Security
+### Security
 
 The routes are secured with Spring Security, using authority based access control. The roles, `ADMIN` and `USER` grants a set of access privileges.
 
-###Functionality
+### Functionality
 * A non registered user should be able to:
   * register a new user account with`USER`role
   * login with user account
